@@ -10,7 +10,7 @@ const mongoClient = new MongoClient(process.env.MONGO_URI);
 let db;
 
 mongoClient.connect().then(() => {
-  db = mongoClient.db('webookBD');
+  db = mongoClient.db('bookstoreBD');
 });
 
 export async function postLogin(req, res) {
