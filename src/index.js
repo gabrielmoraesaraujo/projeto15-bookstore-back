@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-import cartRoute from "./routes/cartRoute.js";
+import cartRoute from "./routes/cartRouter.js";
 import purchasesRoute from "./routes/purchaseRoute.js";
 import registrateRouters from "./routes/resgistrateRoutes.js";
 import bookRouter from "./routes/bookRouter.js";
