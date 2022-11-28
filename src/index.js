@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 import cartRoute from "./routes/cartRouter.js";
 import purchasesRoute from "./routes/purchaseRoute.js";
-import registrateRouters from "./routes/resgistrateRoutes.js";
+import registrateRouters from "./routes/resgistrateRoute.js";
 import bookRouter from "./routes/bookRouter.js";
 import { postLogin } from "./controller/login.js";
 const app = start();
