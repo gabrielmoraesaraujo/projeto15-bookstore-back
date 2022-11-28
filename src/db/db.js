@@ -14,4 +14,4 @@ export default async function mongo() {
     console.error(error);
     return error;
   }
-}
+}   
